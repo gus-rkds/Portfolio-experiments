@@ -4,7 +4,7 @@ function Home() {
   return (
     <Container>
       <Box borderRadius="lg" bg="red" align="center">
-        hello, I'm gustavo
+        hello, Im gustavo
       </Box>
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
