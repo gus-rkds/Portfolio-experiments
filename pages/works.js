@@ -3,15 +3,15 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 
-import thumbInkdrop from "../public/gustavo.jpg";
-import thumbWalknote from "../public/gustavo.jpg";
-import thumbFourPainters from "../public/gustavo.jpg";
-import thumbMenkiki from "../public/gustavo.jpg";
-import thumbModeTokyo from "../public/gustavo.jpg";
-import thumbStyly from "../public/gustavo.jpg";
-import thumbPichu2 from "../public/gustavo.jpg";
-import thumbFreeDBTagger from "../public/gustavo.jpg";
-import thumbAmembo from "../public/gustavo.jpg";
+import thumbInkdrop from "../public/images/gustavo.jpg";
+import thumbWalknote from "../public/images/gustavo.jpg";
+import thumbFourPainters from "../public/images/gustavo.jpg";
+import thumbMenkiki from "../public/images/gustavo.jpg";
+import thumbModeTokyo from "../public/images/gustavo.jpg";
+import thumbStyly from "../public/images/gustavo.jpg";
+import thumbPichu2 from "../public/images/gustavo.jpg";
+import thumbFreeDBTagger from "../public/images/gustavo.jpg";
+import thumbAmembo from "../public/images/gustavo.jpg";
 
 const Works = () => (
   <Layout title="Works">

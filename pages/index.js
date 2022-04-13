@@ -18,7 +18,10 @@ function Home() {
   return (
     <Container>
       <Box
-        borderRadius="lg"
+        mt={3}
+        mb={3}
+        padding={2}
+        borderRadius="md"
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
       >
         hello, Im gustavo
@@ -34,15 +37,11 @@ function Home() {
 
       <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
         <Image
-          borderColor="whiteAlpha.800"
-          borderWidth={2}
-          borderStyle="solid"
-          display="inline-block"
-          maxWidth="100px"
           borderRadius="full"
-          src="../public/gustavo.jpg"
-          alt="Profile image"
-        ></Image>
+          boxSize="250px"
+          src="https://pbs.twimg.com/profile_images/1444482358657290240/KK6Nn8zN_400x400.jpg"
+          alt="Gustavo Alviarez"
+        />
       </Box>
 
       <Section delay={0.1}>
@@ -57,15 +56,15 @@ function Home() {
           I ♥
         </Heading>
         <p>
-          Art, Music,{" "}
+          Programming, Tech,{" "}
           <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+            Games
           </Link>
-          , Playing Drums,{" "}
+          , Languages,{" "}
           <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
+            Dance
           </Link>
-          , Leica, Machine Learning
+          , Design, Machine Learning
         </p>
       </Section>
 
@@ -75,46 +74,35 @@ function Home() {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/gus-rkds" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @gus-rkds
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/gus_rkds" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @gus_rkds
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/gus_rkds/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @gus_rkds
               </Button>
             </Link>
           </ListItem>
